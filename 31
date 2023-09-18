@@ -1,0 +1,18 @@
+
+wget https://filetransfer.nulink.org/release/nulink-0.2.0-py3-none-any.whl
+
+pip install nulink-0.2.0-py3-none-any.whl
+
+pip install --upgrade pip
+
+source /root/nulink-venv/bin/activate
+
+python -c "import nulink"
+
+nulink --help
+
+export NULINK_KEYSTORE_PASSWORD=xxxxxxxxxxxx
+
+به جای ایکس ها اون پسورد که بالاتر وارد کردید و گفتم در ادامه لازمون میشه رو وارد کنید
+
+export NULINK_OPERATOR_ETH_PASSWORD=xxxxxxxxxx
